@@ -1,0 +1,158 @@
+$adminbar-avatar-frame: #999;
+$body-background: #fff;
+$link-focus: #d54e21;
+$link: #21759b;
+$menu-background: #ececec;
+$menu-bubble-background: #464646;
+$menu-bubble-current-background: #464646;
+$menu-bubble-current-text: #fff;
+$menu-bubble-text: #fff;
+$menu-collapse-focus-icon: #999;
+$menu-collapse-focus-text: #999;
+$menu-collapse-icon: #aaa;
+$menu-collapse-text: #aaa;
+$menu-current-background: #777;
+$menu-current-text: #fff;
+$menu-highlight-background: #e4e4e4;
+$menu-highlight-text: #d54e21;
+$menu-icon: #999;
+$menu-submenu-background-alt: #eee;
+$menu-submenu-background: #fff;
+$menu-submenu-current-text: #333;
+$menu-submenu-focus-text: #333;
+$menu-submenu-text: #21759b;
+$menu-text: #21759b;
+$text-color: #ccc;
+
+@import "../../colors.css";
+@import "../_admin.scss";
+
+/* =admin bar
+---------------------------------------- */
+
+#wpadminbar {
+	background: #464646; }
+
+#wpadminbar #wp-admin-bar-comments .count-0 {
+	opacity:inherit; }
+
+#wpadminbar .ab-item,
+#wpadminbar a.ab-item,
+#wpadminbar > #wp-toolbar span.ab-label,
+#wpadminbar > #wp-toolbar span.noticon {
+	color: #ccc; }
+
+#wpadminbar .quicklinks .menupop ul li a:hover,
+#wpadminbar .quicklinks .menupop ul li a:focus {
+	color: #21759b !important; }
+
+#wpadminbar .quicklinks .menupop ul li:hover,
+#wpadminbar .quicklinks .menupop ul li:focus {
+	background: #eaf2fa; }
+
+#wpadminbar .quicklinks .menupop ul.ab-sub-secondary {
+	border-top: 1px solid #dfdfdf; }
+
+#wpadminbar .quicklinks .menupop ul.ab-sub-secondary li:hover,
+#wpadminbar .quicklinks .menupop ul.ab-sub-secondary li:focus {
+	background: #dfdfdf; }
+
+/* =admin menu
+---------------------------------------- */
+
+#adminmenu {
+	margin: 0; }
+
+#adminmenu .wp-submenu li:hover,
+#adminmenu .wp-submenu li:focus {
+	background: #eaf2fa; }
+
+#adminmenu div.wp-menu-image:before {
+	color: #999; }
+
+/* =admin menu separator
+---------------------------------------- */
+
+#adminmenu li.wp-menu-separator {
+	background: #dfdfdf;
+	border-color: #cfcfcf;
+	margin: 0; }
+
+/* =admin menu collapse button: https://melchoyce.github.io/dashicons/
+---------------------------------------- */
+
+#collapse-button {
+	margin: 10px 10px 10px 11px; }
+
+#collapse-button div:after {
+	content: "\f141"; }
+
+/* =headings
+---------------------------------------- */
+
+.wrap h2 {
+	font-weight: 300; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400; }
+
+/* =temporary fix for body background
+---------------------------------------- */
+
+#wpwrap {
+	background: #fff;
+	z-index: 1; }
+
+/* =dashboard no-activity smiley
+---------------------------------------- */
+
+#dashboard_activity .no-activity .smiley {
+	margin: 0; }
+
+#dashboard_activity .no-activity .smiley:before {
+	display: none; }
+
+#dashboard_activity .no-activity p {
+	color: inherit;
+	font-size: inherit;
+	margin: 1em 0 0;
+	text-align: left; }
+
+/* =forms
+---------------------------------------- */
+
+.form-table td {
+	padding: 10px; }
+
+.form-table td fieldset label {
+	margin: .25em 0 !important; }
+
+.form-table th {
+	font-weight:400;
+	padding: 15px 10px 15px 0; }
+
+.form-table,
+.form-table td,
+.form-table th,
+.form-table td p,
+.form-wrap label {
+	font-size: 13px; }
+
+.wp-admin select {
+	height: inherit; }
+
+textarea,
+input,
+select {
+	font-size: 13px; }
+
+/* =footer
+---------------------------------------- */
+
+#footer-thankyou {
+	font-style: inherit; }
